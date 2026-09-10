@@ -1,0 +1,12 @@
+Kiểm chứng HTTP ngày 2026-09-10 (fetch trực tiếp)
+
+Build 1 GET /images/favicon.jpeg -> HTTP 404
+Build 1 GET /images/favico.jpeg -> HTTP 200
+Build 1 GET /images/misson.jpeg -> HTTP 404
+Build 1 GET /images/mission.jpeg -> HTTP 200
+Build 1 GET /articles/999 -> HTTP 500
+Build 1-fixed GET /images/favicon.jpeg -> HTTP 404
+Build 1-fixed GET /images/favico.jpeg -> HTTP 200
+Build 1-fixed GET /images/misson.jpeg -> HTTP 404
+Build 1-fixed GET /images/mission.jpeg -> HTTP 200
+Build 1-fixed GET /articles/999 -> HTTP 200

@@ -1,0 +1,2247 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--reporter=json"
+    ],
+    "configFile": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\playwright.config.js",
+    "rootDir": "C:/Users/ADMIN/Documents/e-learning.vn/HK1 2026-2027/Kiểm thử phần mềm/24810015_Website_NodeJS/tests/test-scripts",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ADMIN/Documents/e-learning.vn/HK1 2026-2027/Kiểm thử phần mềm/24810015_Website_NodeJS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ADMIN/Documents/e-learning.vn/HK1 2026-2027/Kiểm thử phần mềm/24810015_Website_NodeJS/tests/test-scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "articles\\articles.spec.js",
+      "file": "articles/articles.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "articles/articles.spec.js",
+          "line": 14,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-ART-001 trang chủ có đủ 5 link bài viết",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 736,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:12.452Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd183cd39d8168020a64-e88e23ec9038502883e5",
+              "file": "articles/articles.spec.js",
+              "line": 15,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-ART-002 trang chi tiết chứa đúng tiêu đề bài",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1318,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:13.348Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd183cd39d8168020a64-fc990cd599a6e5c8a8e3",
+              "file": "articles/articles.spec.js",
+              "line": 22,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "articles/articles.spec.js",
+          "line": 14,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-ART-001 trang chủ có đủ 5 link bài viết",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 740,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:14.678Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd183cd39d8168020a64-bb705f43b166a5a62ca1",
+              "file": "articles/articles.spec.js",
+              "line": 15,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-ART-002 trang chi tiết chứa đúng tiêu đề bài",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1449,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:15.436Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd183cd39d8168020a64-53f593c50b18ed49a1be",
+              "file": "articles/articles.spec.js",
+              "line": 22,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "auth-placeholder\\auth-placeholder.spec.js",
+      "file": "auth-placeholder/auth-placeholder.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "auth-placeholder/auth-placeholder.spec.js",
+          "line": 6,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-AUTH-001 Register báo đang bảo trì",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 678,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:16.911Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "90bba491c90c1d08c201-fa42e0240b116307682a",
+              "file": "auth-placeholder/auth-placeholder.spec.js",
+              "line": 7,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-AUTH-002 Login báo đang bảo trì",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 688,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:17.615Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "90bba491c90c1d08c201-94f6d30385c80ceff31d",
+              "file": "auth-placeholder/auth-placeholder.spec.js",
+              "line": 12,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "auth-placeholder/auth-placeholder.spec.js",
+          "line": 6,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-AUTH-001 Register báo đang bảo trì",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 663,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:18.327Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "90bba491c90c1d08c201-609ef438d9c886b7f7f9",
+              "file": "auth-placeholder/auth-placeholder.spec.js",
+              "line": 7,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-AUTH-002 Login báo đang bảo trì",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 733,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:19.018Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "90bba491c90c1d08c201-92d9edca9a0610af5c7c",
+              "file": "auth-placeholder/auth-placeholder.spec.js",
+              "line": 12,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "comments\\comments.spec.js",
+      "file": "comments/comments.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "comments/comments.spec.js",
+          "line": 66,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-CMT-001 trang bài hiển thị khung danh sách comment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 660,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:19.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-1a4d28fd8b555f00a9aa",
+              "file": "comments/comments.spec.js",
+              "line": 67,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-CMT-002 thêm comment hợp lệ qua form UI rồi hiển thị",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2155,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:20.472Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-712c8da7d135a9b01612",
+              "file": "comments/comments.spec.js",
+              "line": 72,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-CMT-003 comment rỗng không được lưu",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1632,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:93:27",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                          "column": 27,
+                          "line": 93
+                        },
+                        "snippet": "  91 |       const created = [...after.ids].filter((id) => !before.ids.has(id));\n  92 |       try {\n> 93 |         expect(after.lis).toBe(before.lis);\n     |                           ^\n  94 |         expect(created).toEqual([]);\n  95 |       } finally {\n  96 |         for (const id of created) await deleteComment(request, build.base, id);"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                            "column": 27,
+                            "line": 93
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n  91 |       const created = [...after.ids].filter((id) => !before.ids.has(id));\n  92 |       try {\n> 93 |         expect(after.lis).toBe(before.lis);\n     |                           ^\n  94 |         expect(created).toEqual([]);\n  95 |       } finally {\n  96 |         for (const id of created) await deleteComment(request, build.base, id);\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:93:27"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:22.644Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\comments-comments-Build-1--542a6-comment-rỗng-không-được-lưu\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                        "column": 27,
+                        "line": 93
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-085621e2693b6342974d",
+              "file": "comments/comments.spec.js",
+              "line": 87,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-CMT-004 comment 300 ký tự không được lưu",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1862,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"20\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"20\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:106:66",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                          "column": 66,
+                          "line": 106
+                        },
+                        "snippet": "  104 |       await request.post(`${build.base}/comments`, { form: { comment: long, articleId: String(ARTICLE) } });\n  105 |       try {\n> 106 |         expect(await idsWithMarker(request, build.base, prefix)).toEqual([]);\n      |                                                                  ^\n  107 |       } finally {\n  108 |         await cleanupMarker(request, build.base, prefix);\n  109 |       }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                            "column": 66,
+                            "line": 106
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"20\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  104 |       await request.post(`${build.base}/comments`, { form: { comment: long, articleId: String(ARTICLE) } });\n  105 |       try {\n> 106 |         expect(await idsWithMarker(request, build.base, prefix)).toEqual([]);\n      |                                                                  ^\n  107 |       } finally {\n  108 |         await cleanupMarker(request, build.base, prefix);\n  109 |       }\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:106:66"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:24.941Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\comments-comments-Build-1--dfd6b-nt-300-ký-tự-không-được-lưu\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                        "column": 66,
+                        "line": 106
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-be33ca21b6787cf5e5b2",
+              "file": "comments/comments.spec.js",
+              "line": 100,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-CMT-005 nút xóa tồn tại và xóa được comment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3827,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:27.296Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-077d2692dfe963a44e4e",
+              "file": "comments/comments.spec.js",
+              "line": 112,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "comments/comments.spec.js",
+          "line": 66,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-CMT-001 trang bài hiển thị khung danh sách comment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 741,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:31.267Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-cf9235d62a5c2372619b",
+              "file": "comments/comments.spec.js",
+              "line": 67,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-CMT-002 thêm comment hợp lệ qua form UI rồi hiển thị",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2080,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:32.029Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-6cf08b92ec21b5d4b718",
+              "file": "comments/comments.spec.js",
+              "line": 72,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-CMT-003 comment rỗng không được lưu",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1659,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m21\u001b[39m\nReceived: \u001b[31m22\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m21\u001b[39m\nReceived: \u001b[31m22\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:93:27",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                          "column": 27,
+                          "line": 93
+                        },
+                        "snippet": "  91 |       const created = [...after.ids].filter((id) => !before.ids.has(id));\n  92 |       try {\n> 93 |         expect(after.lis).toBe(before.lis);\n     |                           ^\n  94 |         expect(created).toEqual([]);\n  95 |       } finally {\n  96 |         for (const id of created) await deleteComment(request, build.base, id);"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                            "column": 27,
+                            "line": 93
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m21\u001b[39m\nReceived: \u001b[31m22\u001b[39m\n\n  91 |       const created = [...after.ids].filter((id) => !before.ids.has(id));\n  92 |       try {\n> 93 |         expect(after.lis).toBe(before.lis);\n     |                           ^\n  94 |         expect(created).toEqual([]);\n  95 |       } finally {\n  96 |         for (const id of created) await deleteComment(request, build.base, id);\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:93:27"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:34.139Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\comments-comments-Build-1--0a095-comment-rỗng-không-được-lưu\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                        "column": 27,
+                        "line": 93
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-0f409a2a4e6fd675f318",
+              "file": "comments/comments.spec.js",
+              "line": 87,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-CMT-004 comment 300 ký tự không được lưu",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1841,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"64\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"64\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:106:66",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                          "column": 66,
+                          "line": 106
+                        },
+                        "snippet": "  104 |       await request.post(`${build.base}/comments`, { form: { comment: long, articleId: String(ARTICLE) } });\n  105 |       try {\n> 106 |         expect(await idsWithMarker(request, build.base, prefix)).toEqual([]);\n      |                                                                  ^\n  107 |       } finally {\n  108 |         await cleanupMarker(request, build.base, prefix);\n  109 |       }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                            "column": 66,
+                            "line": 106
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"64\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  104 |       await request.post(`${build.base}/comments`, { form: { comment: long, articleId: String(ARTICLE) } });\n  105 |       try {\n> 106 |         expect(await idsWithMarker(request, build.base, prefix)).toEqual([]);\n      |                                                                  ^\n  107 |       } finally {\n  108 |         await cleanupMarker(request, build.base, prefix);\n  109 |       }\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js:106:66"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:36.425Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\comments-comments-Build-1--d3894-nt-300-ký-tự-không-được-lưu\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\comments\\comments.spec.js",
+                        "column": 66,
+                        "line": 106
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-53d61731c49c67d5e4e5",
+              "file": "comments/comments.spec.js",
+              "line": 100,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-CMT-005 nút xóa tồn tại và xóa được comment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4106,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:38.795Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a16a536fcbef1af35df2-6be9fc8839de44095056",
+              "file": "comments/comments.spec.js",
+              "line": 112,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "error-handling\\error-handling.spec.js",
+      "file": "error-handling/error-handling.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "error-handling/error-handling.spec.js",
+          "line": 7,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-ERR-001 id không tồn tại báo không tìm thấy, không 500",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 238,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m500\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m500\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\error-handling\\error-handling.spec.js:10:28",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\error-handling\\error-handling.spec.js",
+                          "column": 28,
+                          "line": 10
+                        },
+                        "snippet": "   8 |     test(`[${build.name}] TC-ERR-001 id không tồn tại báo không tìm thấy, không 500`, async ({ request }) => {\n   9 |       const res = await request.get(`${build.base}/articles/999`);\n> 10 |       expect(res.status()).toBeLessThan(500);\n     |                            ^\n  11 |       expect(await res.text()).toMatch(/not found/i);\n  12 |     });\n  13 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\error-handling\\error-handling.spec.js",
+                            "column": 28,
+                            "line": 10
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m500\u001b[39m\n\n   8 |     test(`[${build.name}] TC-ERR-001 id không tồn tại báo không tìm thấy, không 500`, async ({ request }) => {\n   9 |       const res = await request.get(`${build.base}/articles/999`);\n> 10 |       expect(res.status()).toBeLessThan(500);\n     |                            ^\n  11 |       expect(await res.text()).toMatch(/not found/i);\n  12 |     });\n  13 |\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\error-handling\\error-handling.spec.js:10:28"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:43.045Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\error-handling-error-handl-9c931-áo-không-tìm-thấy-không-500\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\error-handling\\error-handling.spec.js",
+                        "column": 28,
+                        "line": 10
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ab3572857c32c85f0da3-26321efa2f57bcb31ff9",
+              "file": "error-handling/error-handling.spec.js",
+              "line": 8,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-ERR-002 route lạ trả 404 có trang lỗi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 250,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:43.948Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ab3572857c32c85f0da3-1547faef2d99fdc54035",
+              "file": "error-handling/error-handling.spec.js",
+              "line": 14,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "error-handling/error-handling.spec.js",
+          "line": 7,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-ERR-001 id không tồn tại báo không tìm thấy, không 500",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 181,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:44.239Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ab3572857c32c85f0da3-7c4cf37bd9637ba29613",
+              "file": "error-handling/error-handling.spec.js",
+              "line": 8,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-ERR-002 route lạ trả 404 có trang lỗi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 186,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:44.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ab3572857c32c85f0da3-52556394d262522494fc",
+              "file": "error-handling/error-handling.spec.js",
+              "line": 14,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "navigation\\navigation.spec.js",
+      "file": "navigation/navigation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "navigation/navigation.spec.js",
+          "line": 7,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-NAV-001 menu đủ 3 link đúng href",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 686,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:44.630Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7f141116f34c3c2c7f4-3131cc73cc7d403577e7",
+              "file": "navigation/navigation.spec.js",
+              "line": 8,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-NAV-002 Home không active khi đang ở trang bài",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5619,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoHaveClass\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#mainMenu li').filter({ hasText: 'Home' }).first()\nExpected pattern: not \u001b[32m/active/\u001b[39m\nReceived string: \u001b[31m\"\u001b[7mactive\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toHaveClass\" locator('#mainMenu li').filter({ hasText: 'Home' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#mainMenu li').filter({ hasText: 'Home' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <li class=\"active\">…</li>\u001b[22m\n\u001b[2m       - unexpected value \"active\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoHaveClass\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#mainMenu li').filter({ hasText: 'Home' }).first()\nExpected pattern: not \u001b[32m/active/\u001b[39m\nReceived string: \u001b[31m\"\u001b[7mactive\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toHaveClass\" locator('#mainMenu li').filter({ hasText: 'Home' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#mainMenu li').filter({ hasText: 'Home' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <li class=\"active\">…</li>\u001b[22m\n\u001b[2m       - unexpected value \"active\"\u001b[22m\n\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\navigation\\navigation.spec.js:17:83",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\navigation\\navigation.spec.js",
+                          "column": 83,
+                          "line": 17
+                        },
+                        "snippet": "  15 |     test(`[${build.name}] TC-NAV-002 Home không active khi đang ở trang bài`, async ({ page }) => {\n  16 |       await page.goto(`${build.base}/articles/1`);\n> 17 |       await expect(page.locator('#mainMenu li', { hasText: 'Home' }).first()).not.toHaveClass(/active/);\n     |                                                                                   ^\n  18 |     });\n  19 |   });\n  20 | }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\navigation\\navigation.spec.js",
+                            "column": 83,
+                            "line": 17
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoHaveClass\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#mainMenu li').filter({ hasText: 'Home' }).first()\nExpected pattern: not \u001b[32m/active/\u001b[39m\nReceived string: \u001b[31m\"\u001b[7mactive\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toHaveClass\" locator('#mainMenu li').filter({ hasText: 'Home' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#mainMenu li').filter({ hasText: 'Home' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <li class=\"active\">…</li>\u001b[22m\n\u001b[2m       - unexpected value \"active\"\u001b[22m\n\n\n  15 |     test(`[${build.name}] TC-NAV-002 Home không active khi đang ở trang bài`, async ({ page }) => {\n  16 |       await page.goto(`${build.base}/articles/1`);\n> 17 |       await expect(page.locator('#mainMenu li', { hasText: 'Home' }).first()).not.toHaveClass(/active/);\n     |                                                                                   ^\n  18 |     });\n  19 |   });\n  20 | }\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\navigation\\navigation.spec.js:17:83"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:45.433Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\navigation-navigation-Buil-09cdb-active-khi-đang-ở-trang-bài\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\navigation\\navigation.spec.js",
+                        "column": 83,
+                        "line": 17
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "c7f141116f34c3c2c7f4-319cdd283c1416135c34",
+              "file": "navigation/navigation.spec.js",
+              "line": 15,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "navigation/navigation.spec.js",
+          "line": 7,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-NAV-001 menu đủ 3 link đúng href",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 729,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:51.607Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7f141116f34c3c2c7f4-8acb1072ee03377b7942",
+              "file": "navigation/navigation.spec.js",
+              "line": 8,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-NAV-002 Home không active khi đang ở trang bài",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 612,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:52.513Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c7f141116f34c3c2c7f4-fcce7db3ca4b4d4e44d2",
+              "file": "navigation/navigation.spec.js",
+              "line": 15,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "pagination\\pagination.spec.js",
+      "file": "pagination/pagination.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "pagination/pagination.spec.js",
+          "line": 7,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-PAG-001 phân trang có số trang và trạng thái active",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5597,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('ul.pagination li.active a').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('ul.pagination li.active a').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination li.active a').first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('ul.pagination li.active a').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('ul.pagination li.active a').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination li.active a').first()\u001b[22m\n\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js:10:71",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                          "column": 71,
+                          "line": 10
+                        },
+                        "snippet": "   8 |     test(`[${build.name}] TC-PAG-001 phân trang có số trang và trạng thái active`, async ({ page }) => {\n   9 |       await page.goto(`${build.base}/articles/1`);\n> 10 |       await expect(page.locator('ul.pagination li.active a').first()).toBeVisible();\n     |                                                                       ^\n  11 |     });\n  12 |\n  13 |     test(`[${build.name}] TC-PAG-002 ở ?page=2 link Next trỏ ?page=3`, async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                            "column": 71,
+                            "line": 10
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('ul.pagination li.active a').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('ul.pagination li.active a').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination li.active a').first()\u001b[22m\n\n\n   8 |     test(`[${build.name}] TC-PAG-001 phân trang có số trang và trạng thái active`, async ({ page }) => {\n   9 |       await page.goto(`${build.base}/articles/1`);\n> 10 |       await expect(page.locator('ul.pagination li.active a').first()).toBeVisible();\n     |                                                                       ^\n  11 |     });\n  12 |\n  13 |     test(`[${build.name}] TC-PAG-002 ở ?page=2 link Next trỏ ?page=3`, async ({ page }) => {\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js:10:71"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:53.140Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\pagination-pagination-Buil-f2179--trang-và-trạng-thái-active\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                        "column": 71,
+                        "line": 10
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "82f1b27210f1ddf0b5d0-b39de1f81316d81b1a26",
+              "file": "pagination/pagination.spec.js",
+              "line": 8,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-PAG-002 ở ?page=2 link Next trỏ ?page=3",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5686,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('ul.pagination a').filter({ hasText: 'Next' }).first()\nExpected: \u001b[32m\"?page=\u001b[7m3\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"?page=\u001b[7m21\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('ul.pagination a').filter({ hasText: 'Next' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination a').filter({ hasText: 'Next' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"?page=21\">Next</a>\u001b[22m\n\u001b[2m       - unexpected value \"?page=21\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('ul.pagination a').filter({ hasText: 'Next' }).first()\nExpected: \u001b[32m\"?page=\u001b[7m3\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"?page=\u001b[7m21\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('ul.pagination a').filter({ hasText: 'Next' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination a').filter({ hasText: 'Next' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"?page=21\">Next</a>\u001b[22m\n\u001b[2m       - unexpected value \"?page=21\"\u001b[22m\n\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js:15:82",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                          "column": 82,
+                          "line": 15
+                        },
+                        "snippet": "  13 |     test(`[${build.name}] TC-PAG-002 ở ?page=2 link Next trỏ ?page=3`, async ({ page }) => {\n  14 |       await page.goto(`${build.base}/articles/1?page=2`);\n> 15 |       await expect(page.locator('ul.pagination a', { hasText: 'Next' }).first()).toHaveAttribute('href', '?page=3');\n     |                                                                                  ^\n  16 |     });\n  17 |\n  18 |     test(`[${build.name}] TC-PAG-003 ở ?page=99 link Next trỏ ?page=100`, async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                            "column": 82,
+                            "line": 15
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('ul.pagination a').filter({ hasText: 'Next' }).first()\nExpected: \u001b[32m\"?page=\u001b[7m3\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"?page=\u001b[7m21\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('ul.pagination a').filter({ hasText: 'Next' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination a').filter({ hasText: 'Next' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"?page=21\">Next</a>\u001b[22m\n\u001b[2m       - unexpected value \"?page=21\"\u001b[22m\n\n\n  13 |     test(`[${build.name}] TC-PAG-002 ở ?page=2 link Next trỏ ?page=3`, async ({ page }) => {\n  14 |       await page.goto(`${build.base}/articles/1?page=2`);\n> 15 |       await expect(page.locator('ul.pagination a', { hasText: 'Next' }).first()).toHaveAttribute('href', '?page=3');\n     |                                                                                  ^\n  16 |     });\n  17 |\n  18 |     test(`[${build.name}] TC-PAG-003 ở ?page=99 link Next trỏ ?page=100`, async ({ page }) => {\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js:15:82"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:07:59.289Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\pagination-pagination-Buil-6cbb6-page-2-link-Next-trỏ-page-3\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                        "column": 82,
+                        "line": 15
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "82f1b27210f1ddf0b5d0-51ebb4148ca0812469f6",
+              "file": "pagination/pagination.spec.js",
+              "line": 13,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-PAG-003 ở ?page=99 link Next trỏ ?page=100",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5652,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('ul.pagination a').filter({ hasText: 'Next' }).first()\nExpected: \u001b[32m\"?page=\u001b[7m100\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"?page=\u001b[7m991\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('ul.pagination a').filter({ hasText: 'Next' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination a').filter({ hasText: 'Next' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"?page=991\">Next</a>\u001b[22m\n\u001b[2m       - unexpected value \"?page=991\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('ul.pagination a').filter({ hasText: 'Next' }).first()\nExpected: \u001b[32m\"?page=\u001b[7m100\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"?page=\u001b[7m991\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('ul.pagination a').filter({ hasText: 'Next' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination a').filter({ hasText: 'Next' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"?page=991\">Next</a>\u001b[22m\n\u001b[2m       - unexpected value \"?page=991\"\u001b[22m\n\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js:20:82",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                          "column": 82,
+                          "line": 20
+                        },
+                        "snippet": "  18 |     test(`[${build.name}] TC-PAG-003 ở ?page=99 link Next trỏ ?page=100`, async ({ page }) => {\n  19 |       await page.goto(`${build.base}/articles/1?page=99`);\n> 20 |       await expect(page.locator('ul.pagination a', { hasText: 'Next' }).first()).toHaveAttribute('href', '?page=100');\n     |                                                                                  ^\n  21 |     });\n  22 |   });\n  23 | }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                            "column": 82,
+                            "line": 20
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('ul.pagination a').filter({ hasText: 'Next' }).first()\nExpected: \u001b[32m\"?page=\u001b[7m100\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"?page=\u001b[7m991\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('ul.pagination a').filter({ hasText: 'Next' }).first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('ul.pagination a').filter({ hasText: 'Next' }).first()\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"?page=991\">Next</a>\u001b[22m\n\u001b[2m       - unexpected value \"?page=991\"\u001b[22m\n\n\n  18 |     test(`[${build.name}] TC-PAG-003 ở ?page=99 link Next trỏ ?page=100`, async ({ page }) => {\n  19 |       await page.goto(`${build.base}/articles/1?page=99`);\n> 20 |       await expect(page.locator('ul.pagination a', { hasText: 'Next' }).first()).toHaveAttribute('href', '?page=100');\n     |                                                                                  ^\n  21 |     });\n  22 |   });\n  23 | }\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js:20:82"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:05.669Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\pagination-pagination-Buil-a2ac6-e-99-link-Next-trỏ-page-100\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\pagination\\pagination.spec.js",
+                        "column": 82,
+                        "line": 20
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "82f1b27210f1ddf0b5d0-1f01daf3682709452dc0",
+              "file": "pagination/pagination.spec.js",
+              "line": 18,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "pagination/pagination.spec.js",
+          "line": 7,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-PAG-001 phân trang có số trang và trạng thái active",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 650,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:11.992Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "82f1b27210f1ddf0b5d0-14eec6e63e4f39443c8b",
+              "file": "pagination/pagination.spec.js",
+              "line": 8,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-PAG-002 ở ?page=2 link Next trỏ ?page=3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 665,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:12.778Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "82f1b27210f1ddf0b5d0-7f4ad9ad62db994c80b8",
+              "file": "pagination/pagination.spec.js",
+              "line": 13,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-PAG-003 ở ?page=99 link Next trỏ ?page=100",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 597,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:13.456Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "82f1b27210f1ddf0b5d0-9aa3e8120fb47be9b535",
+              "file": "pagination/pagination.spec.js",
+              "line": 18,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "static-assets\\static-assets.spec.js",
+      "file": "static-assets/static-assets.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "static-assets/static-assets.spec.js",
+          "line": 15,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-IMG-001 mọi ảnh trang chủ đều tải được",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 738,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:18:40",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                          "column": 40,
+                          "line": 18
+                        },
+                        "snippet": "  16 |     test(`[${build.name}] TC-IMG-001 mọi ảnh trang chủ đều tải được`, async ({ page }) => {\n  17 |       await page.goto(`${build.base}/`);\n> 18 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  19 |     });\n  20 |\n  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                            "column": 40,
+                            "line": 18
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  16 |     test(`[${build.name}] TC-IMG-001 mọi ảnh trang chủ đều tải được`, async ({ page }) => {\n  17 |       await page.goto(`${build.base}/`);\n> 18 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  19 |     });\n  20 |\n  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:18:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:14.069Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\static-assets-static-asset-1b11a--ảnh-trang-chủ-đều-tải-được\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                        "column": 40,
+                        "line": 18
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "47188913ed4f4121bbab-6a8583bf5eb9c1262ecf",
+              "file": "static-assets/static-assets.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-IMG-002 mọi ảnh trang bài 4 đều tải được",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 816,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:23:40",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                          "column": 40,
+                          "line": 23
+                        },
+                        "snippet": "  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {\n  22 |       await page.goto(`${build.base}/articles/4`);\n> 23 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  24 |     });\n  25 |\n  26 |     test(`[${build.name}] TC-IMG-003 favicon trả HTTP 200`, async ({ page, request }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                            "column": 40,
+                            "line": 23
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {\n  22 |       await page.goto(`${build.base}/articles/4`);\n> 23 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  24 |     });\n  25 |\n  26 |     test(`[${build.name}] TC-IMG-003 favicon trả HTTP 200`, async ({ page, request }) => {\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:23:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:15.404Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\static-assets-static-asset-a96f1-nh-trang-bài-4-đều-tải-được\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                        "column": 40,
+                        "line": 23
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "47188913ed4f4121bbab-ee6c18595c128d5fe108",
+              "file": "static-assets/static-assets.spec.js",
+              "line": 21,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-IMG-003 favicon trả HTTP 200",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 933,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:31:28",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                          "column": 28,
+                          "line": 31
+                        },
+                        "snippet": "  29 |       expect(href).toBeTruthy();\n  30 |       const res = await request.get(`${build.base}${href}`);\n> 31 |       expect(res.status()).toBe(200);\n     |                            ^\n  32 |     });\n  33 |   });\n  34 | }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                            "column": 28,
+                            "line": 31
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n\n  29 |       expect(href).toBeTruthy();\n  30 |       const res = await request.get(`${build.base}${href}`);\n> 31 |       expect(res.status()).toBe(200);\n     |                            ^\n  32 |     });\n  33 |   });\n  34 | }\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:31:28"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:16.882Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\static-assets-static-asset-35553-MG-003-favicon-trả-HTTP-200\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                        "column": 28,
+                        "line": 31
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "47188913ed4f4121bbab-d6007ddd9d30ae6a6f7b",
+              "file": "static-assets/static-assets.spec.js",
+              "line": 26,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "static-assets/static-assets.spec.js",
+          "line": 15,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-IMG-001 mọi ảnh trang chủ đều tải được",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 726,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:18:40",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                          "column": 40,
+                          "line": 18
+                        },
+                        "snippet": "  16 |     test(`[${build.name}] TC-IMG-001 mọi ảnh trang chủ đều tải được`, async ({ page }) => {\n  17 |       await page.goto(`${build.base}/`);\n> 18 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  19 |     });\n  20 |\n  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                            "column": 40,
+                            "line": 18
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  16 |     test(`[${build.name}] TC-IMG-001 mọi ảnh trang chủ đều tải được`, async ({ page }) => {\n  17 |       await page.goto(`${build.base}/`);\n> 18 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  19 |     });\n  20 |\n  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:18:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:18.468Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\static-assets-static-asset-2edd0--ảnh-trang-chủ-đều-tải-được\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                        "column": 40,
+                        "line": 18
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "47188913ed4f4121bbab-8050768e87020453a295",
+              "file": "static-assets/static-assets.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-IMG-002 mọi ảnh trang bài 4 đều tải được",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 683,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:23:40",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                          "column": 40,
+                          "line": 23
+                        },
+                        "snippet": "  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {\n  22 |       await page.goto(`${build.base}/articles/4`);\n> 23 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  24 |     });\n  25 |\n  26 |     test(`[${build.name}] TC-IMG-003 favicon trả HTTP 200`, async ({ page, request }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                            "column": 40,
+                            "line": 23
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/images/misson.jpeg\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  21 |     test(`[${build.name}] TC-IMG-002 mọi ảnh trang bài 4 đều tải được`, async ({ page }) => {\n  22 |       await page.goto(`${build.base}/articles/4`);\n> 23 |       expect(await brokenImages(page)).toEqual([]);\n     |                                        ^\n  24 |     });\n  25 |\n  26 |     test(`[${build.name}] TC-IMG-003 favicon trả HTTP 200`, async ({ page, request }) => {\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js:23:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:19.845Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\static-assets-static-asset-5863c-nh-trang-bài-4-đều-tải-được\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\static-assets\\static-assets.spec.js",
+                        "column": 40,
+                        "line": 23
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "47188913ed4f4121bbab-6aca3e6080c10e1122b9",
+              "file": "static-assets/static-assets.spec.js",
+              "line": 21,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-IMG-003 favicon trả HTTP 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 910,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:21.222Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "47188913ed4f4121bbab-0ff6e33097337f151639",
+              "file": "static-assets/static-assets.spec.js",
+              "line": 26,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "titles\\titles.spec.js",
+      "file": "titles/titles.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Build 1",
+          "file": "titles/titles.spec.js",
+          "line": 15,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1] TC-TITLE-001 title trang chủ là NodeJS Website",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 644,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:22.263Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "36b38fd76350bf8dbe3a-41b25bb4901abc179e72",
+              "file": "titles/titles.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-TITLE-002 title 5 trang bài đúng tên bài",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5598,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Design Research\"\u001b[39m\nReceived: \u001b[31m\"NodeJS Website\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"NodeJS Website\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Design Research\"\u001b[39m\nReceived: \u001b[31m\"NodeJS Website\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"NodeJS Website\"\u001b[22m\n\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js:24:28",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js",
+                          "column": 28,
+                          "line": 24
+                        },
+                        "snippet": "  22 |       for (let n = 1; n <= 5; n++) {\n  23 |         await page.goto(`${build.base}/articles/${n}`);\n> 24 |         await expect(page).toHaveTitle(TITLES[n]);\n     |                            ^\n  25 |       }\n  26 |     });\n  27 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js",
+                            "column": 28,
+                            "line": 24
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Design Research\"\u001b[39m\nReceived: \u001b[31m\"NodeJS Website\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"NodeJS Website\"\u001b[22m\n\n\n  22 |       for (let n = 1; n <= 5; n++) {\n  23 |         await page.goto(`${build.base}/articles/${n}`);\n> 24 |         await expect(page).toHaveTitle(TITLES[n]);\n     |                            ^\n  25 |       }\n  26 |     });\n  27 |\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js:24:28"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:22.917Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\titles-titles-Build-1-Buil-fe8ba-le-5-trang-bài-đúng-tên-bài\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js",
+                        "column": 28,
+                        "line": 24
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "36b38fd76350bf8dbe3a-1978b2a3c087f1a9f12d",
+              "file": "titles/titles.spec.js",
+              "line": 21,
+              "column": 5
+            },
+            {
+              "title": "[Build 1] TC-TITLE-003 title Register và Login",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5747,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7mRegis\u001b[27mte\u001b[7mr\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mNodeJS Websi\u001b[27mte\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"NodeJS Website\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7mRegis\u001b[27mte\u001b[7mr\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mNodeJS Websi\u001b[27mte\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"NodeJS Website\"\u001b[22m\n\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js:30:26",
+                        "location": {
+                          "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js",
+                          "column": 26,
+                          "line": 30
+                        },
+                        "snippet": "  28 |     test(`[${build.name}] TC-TITLE-003 title Register và Login`, async ({ page }) => {\n  29 |       await page.goto(`${build.base}/register`);\n> 30 |       await expect(page).toHaveTitle('Register');\n     |                          ^\n  31 |       await page.goto(`${build.base}/login`);\n  32 |       await expect(page).toHaveTitle('Login');\n  33 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js",
+                            "column": 26,
+                            "line": 30
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7mRegis\u001b[27mte\u001b[7mr\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mNodeJS Websi\u001b[27mte\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"NodeJS Website\"\u001b[22m\n\n\n  28 |     test(`[${build.name}] TC-TITLE-003 title Register và Login`, async ({ page }) => {\n  29 |       await page.goto(`${build.base}/register`);\n> 30 |       await expect(page).toHaveTitle('Register');\n     |                          ^\n  31 |       await page.goto(`${build.base}/login`);\n  32 |       await expect(page).toHaveTitle('Login');\n  33 |     });\n    at C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js:30:26"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:29.057Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\test-results\\titles-titles-Build-1-Buil-7cf81-003-title-Register-và-Login\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ADMIN\\Documents\\e-learning.vn\\HK1 2026-2027\\Kiểm thử phần mềm\\24810015_Website_NodeJS\\tests\\test-scripts\\titles\\titles.spec.js",
+                        "column": 26,
+                        "line": 30
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "36b38fd76350bf8dbe3a-95f195feda0e387f0747",
+              "file": "titles/titles.spec.js",
+              "line": 28,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Build 1-fixed",
+          "file": "titles/titles.spec.js",
+          "line": 15,
+          "column": 8,
+          "specs": [
+            {
+              "title": "[Build 1-fixed] TC-TITLE-001 title trang chủ là NodeJS Website",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 735,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:35.489Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "36b38fd76350bf8dbe3a-9796db7b145e9ee850a6",
+              "file": "titles/titles.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-TITLE-002 title 5 trang bài đúng tên bài",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1434,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:36.355Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "36b38fd76350bf8dbe3a-5aa095c6ac566d3daa66",
+              "file": "titles/titles.spec.js",
+              "line": 21,
+              "column": 5
+            },
+            {
+              "title": "[Build 1-fixed] TC-TITLE-003 title Register và Login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 875,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-10T03:08:37.801Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "36b38fd76350bf8dbe3a-fb3dcd76689c0d6d7fbb",
+              "file": "titles/titles.spec.js",
+              "line": 28,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-10T03:07:11.840Z",
+    "duration": 86950.983,
+    "expected": 28,
+    "skipped": 0,
+    "unexpected": 16,
+    "flaky": 0
+  }
+}

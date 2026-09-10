@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:json": "playwright test --reporter=json > tests/test-runs/raw/sweep.json",
+    "audit": "node audit.cjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0"
